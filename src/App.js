@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import loadjs from "loadjs";
 
 class App extends Component {
-  componentDidMount(){
-    loadjs("/public/stripUrl.js");
-  }
-
   render() {
     return (
       <div className="App">
